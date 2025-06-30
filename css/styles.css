@@ -202,7 +202,6 @@ header {
     scroll-margin-top: 10rem;
 
     & img {
-        /* width: 100%; */
         height: auto;
         object-fit: contain;
         max-width: 25%;
@@ -235,8 +234,6 @@ header {
 }
 
 .projetos {
-    /* padding: 5rem; */
-    /* width: 50%; */
     padding: 10rem;
     display: flex;
     flex-direction: column;
@@ -276,9 +273,6 @@ header {
             flex-direction: column;
             gap: 2rem;
             justify-content: center;
-
-            /* & h3 {
-            } */
 
             & .ferramentas {
                 display: flex;
@@ -485,10 +479,9 @@ header {
 
     .inicio {
         flex-direction: column;
-        margin: 4rem;
+        margin: 0 4rem 10rem 4rem;
         gap: 4rem;
         text-wrap: balance;
-        margin-bottom: 10rem;
 
         & .inicioTitle {
             margin-top: 15rem;
