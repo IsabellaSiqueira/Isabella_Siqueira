@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sunroll;
+    src: url(../fonts/Sunroll.ttf);
+}
+
+:root {
+    --color-purple-800: #15002C;
+    --color-purple-600: #22004B;
+    --color-purple-400: #351957;
+    --color-purple-200: #C2A3E6;
+    --color-white: #F0F0F0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Raleway;
+    background-color: var(--color-purple-600);
+    background-image: url('../Images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    color: var(--color-white);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.button {
+    background-color: var(--color-purple-800);
+    color: var(--color-white);
+    padding: 1.2rem;
+    border-radius: 1rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--color-white);
+    color: var(--color-purple-800);
+
+    & .desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 10rem;
+    }
+
+    & .mobile {
+        display: none;
+    }
+
+    & h1 {
+        font-family: Sunroll;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+
+    & .menu {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
