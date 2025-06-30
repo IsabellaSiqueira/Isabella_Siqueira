@@ -466,10 +466,6 @@ header {
             transition: background-color 0.3s ease;
         }
 
-& .mobile-menu-toggle:hover {
-            background-color: var(--color-pink);
-        }
-
         &.menu-open {
             & .main-menu {
                 display: flex;
@@ -479,9 +475,11 @@ header {
 
     .inicio {
         flex-direction: column;
-        margin: 0 4rem 10rem 4rem;
+        margin:4rem;
         gap: 4rem;
         text-wrap: balance;
+        margin-bottom: 10rem;
+        margin-top: -5rem;
 
         & .inicioTitle {
             margin-top: 15rem;
