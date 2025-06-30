@@ -168,12 +168,6 @@ header {
         color: var(--color-purple);
     }
 
-    & i {
-        text-align: center;
-        font-size: 5rem;
-        font-weight: 100;
-    }
-
     & .seta {
         width: 6rem;
         height: 6rem;
@@ -491,6 +485,9 @@ header {
                 font-size: 32px;
                 line-height: 40px;
             }
+        }
+        & .seta {
+            margin-top: 0;
         }
     }
 
